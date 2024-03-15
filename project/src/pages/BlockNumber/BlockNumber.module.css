@@ -1,0 +1,37 @@
+.container{
+  width: fit-content;
+  margin: auto;
+}
+.container p{
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    width: fit-content;
+    margin: 50px auto;
+}
+
+.action{
+    width: fit-content;
+    margin: 50px auto;
+}
+.button{
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    transition: .3s;
+    background-color: rgb(159, 158, 158);
+    color: black;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: rgb(75, 74, 74);
+    color: white;
+}
+.loading{
+    padding: 10px 20px 10px 20px;
+    transition: .3s;
+    background-color: rgb(159, 158, 158);
+    color: black;
+    border-radius: 4px;
+    font-size: 20px;
+  }
