@@ -6,7 +6,7 @@ const Error = () => {
   return (
     <div className="error">
       <h1>error</h1>
-      <p className="text">Invalid '{error.value}'</p>
+      <p className="text">Invalid '{error && error.value && error.value}'</p>
     </div>
   );
 };
