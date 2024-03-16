@@ -3,10 +3,10 @@ import clas from "./USDT.module.css";
 import { ethers } from "ethers";
 
 const USDT = () => {
-  const balance = useActionData() || 0 ;
+  const balance = useActionData() || 0;
   const navigation = useNavigation();
   const loadingState = navigation.state === "submitting";
-  console.log(balance)
+
   return (
     <>
       <Form method="post" className={clas.form}>
